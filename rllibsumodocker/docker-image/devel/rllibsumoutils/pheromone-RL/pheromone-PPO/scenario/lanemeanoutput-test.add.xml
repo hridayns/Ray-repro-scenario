@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional>
+  <laneData file="../evaldata/lanemeandata-output.xml" id="lanedata" />
+  <poly angle="0.0" color="0,0,255" id="zone_1" layer="999.0" lineWidth="1" shape="0.0,5.0 0.0,-10.0" type="zone" />
+  <poly angle="0.0" color="0,0,255" id="zone_2" layer="999.0" lineWidth="1" shape="250.0,5.0 250.0,-10.0" type="zone" />
+  <poly angle="0.0" color="0,0,255" id="zone_3" layer="999.0" lineWidth="1" shape="500.0,5.0 500.0,-10.0" type="zone" />
+  <poly angle="0.0" color="0,0,255" id="zone_4" layer="999.0" lineWidth="1" shape="750.0,5.0 750.0,-10.0" type="zone" />
+</additional>

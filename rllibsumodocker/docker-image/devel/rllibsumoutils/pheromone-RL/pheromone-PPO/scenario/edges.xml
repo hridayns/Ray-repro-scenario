@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edges>
+
+  <edge from="1" id="1f2" numLanes="3" to="2">
+    <!-- <lane index="0" width="5.4" /> -->
+    <!-- <lane index="1" width="5.4" /> -->
+  </edge>
+
+</edges>

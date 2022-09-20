@@ -1,0 +1,10 @@
+<viewsettings>
+    <!-- <viewport y="0" x="-30" zoom="500"/> -->
+    <viewport x="555" y="-5" zoom="200"/>
+    <delay value="200"/>
+    <scheme name="custom">
+        <vehicles drawBrakeGap="0" vehicleQuality="2"></vehicles>
+        <edges laneShowBorders="1"></edges>
+        
+    </scheme> 
+</viewsettings>

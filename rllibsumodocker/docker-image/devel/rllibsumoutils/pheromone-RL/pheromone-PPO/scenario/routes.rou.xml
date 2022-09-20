@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+
+    <vType id="ghost" />
+    <vType id="ghost2" />
+    <vType id="ghost3" />
+    <vType carFollowModel="Krauss" color="0,1,0" id="veh" latAlignment="center" lcCooperative="1" lcKeepRight="0" lcLookaheadLeft="1" lcOvertakeRight="1" lcSpeedGain="0" lcSpeedGainRight="1" lcStrategic="-1" lcSublane="1" length="5" sigma="0" speedDev="0" speedFactor="1.0" />
+    <!-- mingap 2.5m | accel 2.6m/s2 | decel 4.5m/s2 | max decel 9m/s2 -->
+    <!-- accel="4.0" decel="4.0" -->
+    <route color="1,1,0" edges="1f2" id="r0" />
+
+    <flow arrivalLane="current" arrivalPosLat="center" begin="0" departLane="random" departPosLat="center" departSpeed="random" id="f" number="1000" route="r0" type="veh" vehsPerHour="10000" />
+
+</routes>

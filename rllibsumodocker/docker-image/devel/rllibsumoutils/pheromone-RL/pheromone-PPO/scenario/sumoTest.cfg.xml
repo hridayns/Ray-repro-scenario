@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="network.net.xml" />
+        <route-files value="routes.rou.xml" />
+        <gui-settings-file value="sumo.settings.xml" />
+        <additional-files value="lanemeanoutput-test.add.xml" />
+
+    </input>
+
+    <time>
+        <begin value="0.0" />
+        <step-length value="1" />
+    </time>
+
+    <report>
+        
+        <verbose value="false" />
+        <no-step-log value="true" />
+        <duration-log.statistics value="false" />
+        <duration-log.disable value="true" />
+        <no-warnings value="false" />
+    </report>
+
+    <processing>
+        <collision.action value="warn" />
+        <collision.mingap-factor value="0.0" />
+        <collision.check-junctions value="true" />
+        <time-to-teleport value="-1" />
+        <!-- <lateral-resolution value="3.2" /> -->
+        <lateral-resolution value="3.2" />
+    </processing>
+
+    <output>
+        <output-prefix value="TIME" />
+        
+        <!-- <collision-output value="../evaldata/nv-100_nl-2_nz-4_ls-1000.0_nb-1_bls-250_blp-750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_collision-output/collision-output.xml" /> -->
+        <!-- <vtk-output value="../data/vtk-output.xml" /> -->
+        <fcd-output value="../evaldata/nv-1000_nl-3_nz-10_ls-5000.0_nb-1_bls-500_blp-2750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_fcd-output/fcd-output.xml" />
+        <!-- <summary-output value="../evaldata/nv-100_nl-2_nz-4_ls-1000.0_nb-1_bls-250_blp-750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_summary-output/summary-output.xml" /> -->
+        <!-- <full-output value="../evaldata/nv-100_nl-2_nz-4_ls-1000.0_nb-1_bls-250_blp-750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_full-output/full-output.xml" /> -->
+        <!-- <tripinfo-output value="../evaldata/nv-100_nl-2_nz-4_ls-1000.0_nb-1_bls-250_blp-750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_tripinfo-output/tripinfo-output.xml" /> -->
+        <!-- <statistic-output value="../evaldata/nv-100_nl-2_nz-4_ls-1000.0_nb-1_bls-250_blp-750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_statistic-output/statistic-output.xml" /> -->
+        <lanechange-output value="../evaldata/nv-1000_nl-3_nz-10_ls-5000.0_nb-1_bls-500_blp-2750_bll-0_bdur-END_puf-1_ec-0.3_df-0.5_lanechange-output/lanechange-output.xml" />
+        
+        <fcd-output.acceleration value="true" />
+        <fcd-output.max-leader-distance value="150.0" />
+        <fcd-output.params value="period=-1" />
+    </output>
+    
+
+        
+    
+
+
+</configuration>
